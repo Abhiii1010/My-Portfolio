@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <h1 class="section-title">My <span>Projects</span></h1>
+            <p class="section-subtitle">Here are some of my recent works</p>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="assests/image/Project1.jpg" alt="Portfolio Website">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiii1010/instagramClone" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Instagram Clone</h3>
+                        <p>AN Instagram Clone enables users to share photo,like and comment on post and follow other users.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="assests/image/Project2.jpg" alt="Real Estate">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiii1010/Estate-App" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real Estate</h3>
+                        <p>A real estate app help users browse, filter and view property listining for sale or rent.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>CSS</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="assests/image/Project3.jpg" alt="UI Design">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiii1010/Spotify_Clone" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3> Spotify Clone</h3>
+                        <p>A Spotify clone lets users stream music, explore songs by artist or genres.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-img">
+                        <img src="assests/image/Project4.jpg" alt="todoapp">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiii1010/todoapp" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TO DO List</h3>
+                        <p>A to-do list app allow users to add, edit, and delete tasks to stay organized.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>CSS</span>
+                            <span>MongoDb</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="assests/image/Project5.jpg" alt="E-commerce Website">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiii1010/amazon-clone" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Amazon Clone</h3>
+                        <p>A fully responsive frontend design .</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="assests/image/Project6.jpg" alt="Todo_List">
+                        <div class="project-links">
+                            <a href="https://github.com/Abhiii1010/Todo_List" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>To-Do App</h3>
+                        <p>A to-do list app allow users to add, edit, and delete tasks to stay organized.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="projects-cta">
+                <h2>Have a project in mind?</h2>
+                <p>I'm available for freelance work. Let's build something amazing together!</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
